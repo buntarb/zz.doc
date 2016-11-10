@@ -1,0 +1,15 @@
+NAMESPACE: 'zz.doc.models.Doc'
+
+FIELDS:
+
+  authors:
+
+    index: 0
+    type: zz.models.enums.FieldType.STRING
+    required: false
+
+  title:
+
+    index: 1
+    type: zz.models.enums.FieldType.STRING
+    required: false
