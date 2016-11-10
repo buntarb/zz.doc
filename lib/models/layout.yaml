@@ -9,13 +9,13 @@ FIELDS:
   header:
 
     index: 0
-    type: zz.ide.models.Header
+    type: zz.doc.models.Header
     required: false
 
   navigation:
 
     index: 1
-    type: zz.ide.models.Navigation
+    type: zz.doc.models.Navigation
     required: false
 
   navigationIsShown:
