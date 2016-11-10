@@ -1,0 +1,27 @@
+NAMESPACE: 'zz.doc.models.Layout'
+
+REQUIRE:
+  -  'zz.doc.models.Header'
+  -  'zz.doc.models.Navigation'
+
+FIELDS:
+
+  header:
+
+    index: 0
+    type: zz.ide.models.Header
+    required: false
+
+  navigation:
+
+    index: 1
+    type: zz.ide.models.Navigation
+    required: false
+
+  navigationIsShown:
+
+    index: 2
+    type:  zz.models.enums.FieldType.BOOLEAN
+    required: false
+
+

@@ -1,0 +1,21 @@
+NAMESPACE: 'zz.doc.models.Filelist'
+
+FIELDS:
+
+  name:
+
+      index: 0
+      type: zz.models.enums.FieldType.STRING
+      required: false
+
+  type:
+
+      index: 1
+      type: zz.models.enums.FieldType.NUMBER
+      required: false
+
+  path:
+
+      index: 2
+      type: zz.models.enums.FieldType.STRING
+      required: false
